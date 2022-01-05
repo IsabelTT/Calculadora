@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <!-- Area donde se  pintaran las operaciones-->
+        <div class="display">
+            <div class="valor-anterior"></div>
+            <div class="valor-actual"></div>
+        </div>
+        <!-- Boton para borrar Todo (C)-->
+        <button class="span-2" onclick="display.borrarTodo()">C</button>
+
+        <!-- Boton para borrar un elemento (←) -->
+        <button onclick="display.borrar()">←</button>
+
+        <!-- Botones de operaciones y numeros  -->
+        <button class="operador" value="dividir">÷</button>
+        <button class="numero">7</button>
+        <button class="numero">8</button>
+        <button class="numero">9</button>
+        <button class="operador" value="multiplicar">×</button>
+        <button class="numero">4</button>
+        <button class="numero">5</button>
+        <button class="numero">6</button>
+        <button class="operador" value="restar">-</button>
+        <button class="numero">1</button>
+        <button class="numero">2</button>
+        <button class="numero">3</button>
+        <button class="operador" value="sumar">+</button>
+        <button class="numero">0</button>
+        <button class="numero">.</button>
+        <button class="operador span-2" value="igual">=</button>
+    </div>
+    <script src="js/Display.js"></script>
+    <script src="js/Calculadora.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
