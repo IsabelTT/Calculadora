@@ -2,7 +2,7 @@
 
 Hola! 👋 Presento calculadora funcional
 
-<img src="([![calculadora.png](https://i.postimg.cc/4dRHqqth/calculadora.png)](https://postimg.cc/nsTLQd3H))">
+[![calculadora.png](https://i.postimg.cc/4dRHqqth/calculadora.png)](https://postimg.cc/nsTLQd3H)
 
 *Para probar la calculadora* [Click here!](https://relieved-peace.surge.sh/)) 👈
 
